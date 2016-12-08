@@ -31,6 +31,6 @@ To set it up go to https://www.tumblr.com/settings/apps and create an app, or co
 
 After that it's just a matter of running the script:
 
-    python UploadPosts.py
+    python UploadPosts.py goodreads_export.csv CREDENTIALS --blogname potatoHero
 
 It does not support Python 3 since the pytumblr library works only under Python 2.

@@ -25,7 +25,7 @@ GOODREADS_LINK = re.compile("\[b:(.*)\]")
 parser = ArgumentParser(description='Uploads your goodreads reviews to Tumblr.')
 parser.add_argument('exported_csv', default='./goodreads_export.csv', help='Path to your exported csv file')
 parser.add_argument('credentials', help='Path of your Tumblr credentials file, see example')
-parser.add_argument('blogname', default='biggestfool', help='Name of your Tumblr blog')
+parser.add_argument('--blogname', default='biggestfool', help='Name of your Tumblr blog')
 
 # Go to https://www.tumblr.com/settings/apps and create an app,
 # and/or copy OAuth Consumer Key and OAuth Consumer Scret
